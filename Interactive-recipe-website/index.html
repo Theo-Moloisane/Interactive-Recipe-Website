@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <script src="Searchbar.js" defer></script>
+    <script src="features.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Playwrite+HR:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="MEE">Main Event Eats</h1>
+        <form id="searchForm">
+          <input
+            type="text"
+            placeholder="Search for recipes..."
+            class="searchBox"
+            id="search-item"
+          />
+          <button type="submit" class="searchButton">Search</button>
+        </form>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="recipe-container">
+          <h2>Elevate Your Cooking Game with recipes made by our guest chefs Joshua and Makgotso</h2>
+        </div>
+      </section>
+      <div class="recipe">
+        <h2>Featured Recipes</h2>
+        <div class="recipe-list" id="recipe-list"></div>
+      </div>
+      <div id="recipeDetails" class="recipe-details"></div>
+    </main>
+    <footer>
+      <div class="Copyrighthing">
+        <h5>
+          CopyRight © 2024 [We wanted to add a logo but didnt know enough about
+          copyright to do so...]
+        </h5>
+      </div>
+    </footer>
+  </body>
+</html>
